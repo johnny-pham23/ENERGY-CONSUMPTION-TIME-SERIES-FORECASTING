@@ -51,6 +51,23 @@ Monthly PACF has spikes at 1, 2, 3, and 5. AR(p) = (1,2). Because of limiting pr
 
 <img src="images/MonthlyPACF.jpg" width="600">
 
+## Grid Search
+Grid Searching is an exhaustive search over a range of parameters. Doing this technique can test for all p, q, and d parameters ensures that we have the best model for prediction (Lazzeri, 2021).
+
+Akaike’s Information Criterion (AIC) is used to determine SARIMA model parameters. The lowest AIC value will result in the best forecasting model (Stoica & Selén, 2004). 
+
+Parameters p and q were given a range 0-3 (not inclusive) and d 0-2 (not inclusive). These ranges were set from the ACF and PACF from the previous section. 
+
+### Weekly Akaike’s Information Criterion
+
+|(p,d,q)|(p,d,q,s)|AIC| 
+|(0, 1, 2)|(1, 1, 2, 52)|2595.04912|
+|(1, 1, 2)|(1, 1, 2, 52)|2595.38842|
+|(1, 1, 2)|(1, 1, 2, 52)|2599.6405|
+|(1, 1, 2)|(1, 1, 2, 52)|2600.19753|
+|(1, 1, 2)|(1, 1, 2, 52)|2600.23637|
+
+
 # Model Predictions
 
 Weekly Prediction:

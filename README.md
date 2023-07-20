@@ -39,7 +39,17 @@ Monthly Prediction:
 
 
 # Area of Study
+DEO&K covers the southwest tip of Ohio and a small area of northern Kentucky. Duke Energy is based in Charlotte, North Carolina which has subsidiaries in the studied area. As of 2022, DEO&K serves 880,000 residential, commercial, and industrial customers in a 3,000-square-mile service area, and natural gas service to 550,000 customers in a 2,650-square-mile service area. It is unknown the amount of energy storage DEO&K has, but collectively Duke Energy (which includes North Carolina, South Carolina, Florida, Indiana, Ohio, and Kentucky) owns 50,000 MW of energy capacity. The dataset was obtained on Kaggle, provided by PJM Interconnection LLC. 
+
 <img src="images/AreaofStudy.png" width="600">
+
+
+
+
+
+
+
+
 # Data Structure
 
 |                  x|                 y|  acq_date| frp| acq_time|County|

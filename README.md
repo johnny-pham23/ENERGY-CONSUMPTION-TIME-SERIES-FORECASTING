@@ -20,11 +20,11 @@ The first part of the ARIMA model contains the order of the non-seasonal paramet
 # Model Predictions
 Weekly Prediction:
 
-![Pie chart of species](images/WeeklyPred.png)
+![Pie chart of species](images/WeeklyPred.jpg)
 
 Monthly Prediction:
 
-![Pie chart of species](images/MonthlyPred.png) 
+![Pie chart of species](images/MonthlyPred.jpg) 
 
 
 # Area of Study

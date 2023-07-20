@@ -17,8 +17,8 @@ where p is the order of nonseasonal autoregression, d is the number of regular d
 The first part of the ARIMA model contains the order of the non-seasonal parameters while the orders of the seasonal parameters are contained in the second part. The ARIMA model is chosen by determining parameters p, d, and q (Astuti & Jamaludin, 2018). 
 
 # Insights
-<img src="BoxplotEnergyCompW.jpg" width="600">
-<img src="BoxplotEnergyCompM.jpg" width="600">
+<img src="images/BoxplotEnergyCompW.jpg" width="600">
+<img src="images/BoxplotEnergyCompM.jpg" width="600">
 
 # Model Predictions
 Weekly Prediction:

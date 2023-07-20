@@ -17,17 +17,21 @@ where p is the order of nonseasonal autoregression, d is the number of regular d
 The first part of the ARIMA model contains the order of the non-seasonal parameters while the orders of the seasonal parameters are contained in the second part. The ARIMA model is chosen by determining parameters p, d, and q (Astuti & Jamaludin, 2018). 
 
 # Insights
+Boxplots are used to visualize the general pattern of electricity consumption throughout the year. 
+
 <img src="images/BoxplotEnergyCompW.jpg" width="600">
+
+There is a major peak in July when the height of summer causes customers and businesses to cool their buildings. There is also a secondary peak in January where winters are cold and in contrast to cooling, buildings are heated to maintain a comfortable temperature indoors. 
+
 <img src="images/BoxplotEnergyCompM.jpg" width="600">
 
 # Model Predictions
-Boxplots are used to visualize the general pattern of electricity consumption throughout the year. 
+
 Weekly Prediction:
 
 ![Pie chart of species](images/WeeklyPred.jpg)
 
 Monthly Prediction:
-There is a major peak in July when the height of summer causes customers and businesses to cool their buildings. There is also a secondary peak in January where winters are cold and in contrast to cooling, buildings are heated to maintain a comfortable temperature indoors. 
 
 ![Pie chart of species](images/MonthlyPred.jpeg) 
 

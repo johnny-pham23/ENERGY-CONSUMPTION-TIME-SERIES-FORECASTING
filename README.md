@@ -28,7 +28,6 @@ Monthly Prediction:
 
 
 # Area of Study
-![Pie chart of species](images/AreaofStudy.png) 
 <img src="images/AreaofStudy.png" width="600">
 # Data Structure
 

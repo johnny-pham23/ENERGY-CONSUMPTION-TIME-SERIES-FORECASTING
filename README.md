@@ -18,12 +18,11 @@ The model forecasts 01-01-2017 to 08-03-2018 in both weekly and monthly datasets
 
 Weekly Prediction:
 
-![Pie chart of species](images/WeeklyPred.jpg)
+<img src="images/WeeklyPred.jpg" width="600">
 
 Monthly Prediction:
 
-![Pie chart of species](images/MonthlyPred.jpeg) 
-
+<img src="images/MonthlyPred.jpg" width="600">
 
 ## Results
 Although visually the predictions of both models take the shape of the general dataset, statistical measures are high in both models. 
@@ -82,19 +81,19 @@ The ACF and PACF are used to determine the appropriate AR(p) and MA(q) starting 
 
 Weekly ACF exhibits tailing off indicating presence of autoregression (AR(p))
 
-<img src="images/WeeklyACF.jpg" width="600">
+<img src="images/WeeklyACF.jpg" width="400">
 
 Weekly PACF has spikes at 1 and 2. AR(p) = (1,2)
 
-<img src="images/WeeklyPACF.jpg" width="600">
+<img src="images/WeeklyPACF.jpg" width="400">
 
 Monthly ACF exhibits cyclic patterns at lags 1,3,5, and 9 which could mean quarterly effects. 
 
-<img src="images/MonthlyACF.jpg" width="600">
+<img src="images/MonthlyACF.jpg" width="400">
 
 Monthly PACF has spikes at 1, 2, 3, and 5. AR(p) = (1,2). Because of limiting processing power AR(3,5) will not be studied.
 
-<img src="images/MonthlyPACF.jpg" width="600">
+<img src="images/MonthlyPACF.jpg" width="400">
 
 ## Grid Search
 Grid Searching is an exhaustive search over a range of parameters. Doing this technique can test for all p, q, and d parameters ensures that we have the best model for prediction (Lazzeri, 2021).

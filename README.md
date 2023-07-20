@@ -29,7 +29,7 @@ Monthly Prediction:
 
 # Area of Study
 ![Pie chart of species](images/AreaofStudy.png) 
-
+<img src="images/AreaofStudy.png" width="48">
 # Data Structure
 
 |                  x|                 y|  acq_date| frp| acq_time|County|

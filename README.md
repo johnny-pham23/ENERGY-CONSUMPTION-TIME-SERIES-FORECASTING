@@ -25,7 +25,7 @@ The average amount of electricy consumption is lower on the weekends (Saturday a
 
 There is a major peak in July (7) when the height of summer causes customers and businesses to cool their buildings. There is also a secondary peak in January (1) where winters are cold and in contrast to cooling, buildings are heated to maintain a comfortable temperature indoors. 
 
-<img src="images/BoxplotEnergyCompM.jpg" width="600">
+<img src="images/BoxplotEnergyCompM.jpg" width="600" align='center'>
 
 # Model Predictions
 

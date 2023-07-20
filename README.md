@@ -1,8 +1,5 @@
-# UC Riverside Capstone Project
-
-
 # Predicting Electrical Energy Consumption by Time Series Forecasting
- 
+## UC Riverside Capstone Project 
 # Goals
 - Utilize Seasonal Autoregressive Integrated Moving Average with eXogenous variables (SARIMAX) approach to forecast weekly and monthly energy consumption.  
 - Create visualizations of the dataset to gibe insight to seasonal patterns of electrical consumption.

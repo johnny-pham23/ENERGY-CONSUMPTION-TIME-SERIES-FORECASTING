@@ -90,14 +90,27 @@ Monthly Prediction:
 ![Pie chart of species](images/MonthlyPred.jpeg) 
 
 
+# Results
 
+Weekly Lowest Mean Absolute Error (MAE)
 
+|Date|MAE|
+|----|----|
+|2017-10-08|0.686|
+|2017-10-15|11.9|
+|2018-05-27|14.7|
+|2018-07-15|22.3|
+|2018-05-13|31.8|
 
+Monthly Lowest Mean Absolute Error (MAE)
 
-
-
-
-
+|Date|MAE|
+|----|----|
+|2017-03-31|2.07|
+|2017-07-31|2.96|
+|2018-06-30|8.00|
+|2018-07-31|8.00|
+|2017-12-31|11.8|
 
 # Data Structure
 

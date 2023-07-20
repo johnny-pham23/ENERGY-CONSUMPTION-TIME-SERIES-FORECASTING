@@ -122,19 +122,3 @@ Parameters p and q were given a range 0-3 (not inclusive) and d 0-2 (not inclusi
 |(1, 1, 2)|(1, 1, 2, 12)|544.029311|
 |(1, 1, 2)|(0, 1, 2, 12)|545.89382|
 |(0, 1, 2)|(2, 1, 2, 12)|546.852477|
-
-
-
-
-# Data Structure
-
-|                  x|                 y|  acq_date| frp| acq_time|County|
-|-------------------|------------------|----------|----|---------|------|
-|-123.79012382714633| 39.49769932079566|2014-04-16| 5.7|     2051| 06045|
-
-
-
-## Spatial Analysis
-Example output of spatial analysis:  
-![Pie chart of species](images/spatial_analysis100klegendsmall.png)  
-Credits: Vraj Patel

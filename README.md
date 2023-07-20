@@ -60,7 +60,8 @@ Parameters p and q were given a range 0-3 (not inclusive) and d 0-2 (not inclusi
 
 ### Weekly Akaike’s Information Criterion
 
-|(p,d,q)  |(p,d,q,s)    |AIC       | 
+|(p,d,q)  |(p,d,q,s)    |AIC| 
+|---------|-------------|----------|
 |(0, 1, 2)|(1, 1, 2, 52)|2595.04912|
 |(1, 1, 2)|(1, 1, 2, 52)|2595.38842|
 |(1, 1, 2)|(1, 1, 2, 52)|2599.64050|

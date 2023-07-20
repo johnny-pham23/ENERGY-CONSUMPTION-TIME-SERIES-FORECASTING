@@ -8,6 +8,11 @@
 # Overview
 Utilizing hourly data of electrical loads from Duke Energy Ohio and Kentucky Corp. (DEO&K) and joining historical air temperature data from Cincinnati Northern Kentucky International Airport, future energy consumption can be modeled and predicted by time series forecasting. Time series forecasting is a data science technique that analyzes time series data using statistics and modeling to make predictions and inform strategic decisions (Lazzeri, 2021). This project will predict the amount of electricity DEO&K will use over the next year.   
 
+# Area of Study
+DEO&K covers the southwest tip of Ohio and a small area of northern Kentucky. Duke Energy is based in Charlotte, North Carolina which has subsidiaries in the studied area. As of 2022, DEO&K serves 880,000 residential, commercial, and industrial customers in a 3,000-square-mile service area, and natural gas service to 550,000 customers in a 2,650-square-mile service area. It is unknown the amount of energy storage DEO&K has, but collectively Duke Energy (which includes North Carolina, South Carolina, Florida, Indiana, Ohio, and Kentucky) owns 50,000 MW of energy capacity. The dataset was obtained on Kaggle, provided by PJM Interconnection LLC. 
+
+<img src="images/AreaofStudy.png" width="600">
+
 # SARIMA
 
 Seasonal ARIMA (SARIMA) time series model is created by adding seasonal terms to the ARIMA model. SARIMA is written as 
@@ -25,7 +30,26 @@ The average amount of electricy consumption is lower on the weekends (Saturday a
 
 There is a major peak in July (7) when the height of summer causes customers and businesses to cool their buildings. There is also a secondary peak in January (1) where winters are cold and in contrast to cooling, buildings are heated to maintain a comfortable temperature indoors. 
 
-<img src="images/BoxplotEnergyCompM.jpg" width="600" align='center'>
+<img src="images/BoxplotEnergyCompM.jpg" width="600">
+
+# Autocorrelation Function (ACF) and Partial Correlation Function (PACF)
+The ACF and PACF are used to determine the appropriate AR(p) and MA(q) starting parameters, a grid search is then performed to find the best combination of patterns (Lazzeri, 2021). 
+
+Weekly ACF exhibits tailing off indicating presence of autoregression (AR(p))
+
+<img src="images/WeeklyACF.jpg" width="600">
+
+Weekly PACF has spikes at 1 and 2. AR(p) = (1,2)
+
+<img src="images/WeeklyPACF.jpg" width="600">
+
+Monthly ACF exhibits cyclic patterns at lags 1,3,5, and 9 which could mean quarterly effects. 
+
+<img src="images/MonthlyACF.jpg" width="600">
+
+Monthly PACF has spikes at 1, 2, 3, and 5. AR(p) = (1,2). Because of limiting processing power AR(3,5) will not be studied.
+
+<img src="images/MonthlyPACF.jpg" width="600">
 
 # Model Predictions
 
@@ -38,10 +62,7 @@ Monthly Prediction:
 ![Pie chart of species](images/MonthlyPred.jpeg) 
 
 
-# Area of Study
-DEO&K covers the southwest tip of Ohio and a small area of northern Kentucky. Duke Energy is based in Charlotte, North Carolina which has subsidiaries in the studied area. As of 2022, DEO&K serves 880,000 residential, commercial, and industrial customers in a 3,000-square-mile service area, and natural gas service to 550,000 customers in a 2,650-square-mile service area. It is unknown the amount of energy storage DEO&K has, but collectively Duke Energy (which includes North Carolina, South Carolina, Florida, Indiana, Ohio, and Kentucky) owns 50,000 MW of energy capacity. The dataset was obtained on Kaggle, provided by PJM Interconnection LLC. 
 
-<img src="images/AreaofStudy.png" width="600">
 
 
 

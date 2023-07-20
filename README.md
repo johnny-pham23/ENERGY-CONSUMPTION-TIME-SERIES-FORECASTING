@@ -28,6 +28,7 @@ Weekly Prediction:
 
 Monthly Prediction:
 There is a major peak in July when the height of summer causes customers and businesses to cool their buildings. There is also a secondary peak in January where winters are cold and in contrast to cooling, buildings are heated to maintain a comfortable temperature indoors. 
+
 ![Pie chart of species](images/MonthlyPred.jpeg) 
 
 

@@ -14,6 +14,7 @@ DEO&K covers the southwest tip of Ohio and a small area of northern Kentucky. Du
 <img src="images/AreaofStudy.png" width="600">
 
 # Model Predictions
+The model forecasts 01-01-2017 to 08-03-2018 in both weekly and monthly datasets. Figure 8 shows the dataset (blue line) compared to the predicted values (red line) of the weekly and monthly datasets. The dashed line is 01-01-2017 where the dataset was split. 
 
 Weekly Prediction:
 
@@ -25,6 +26,18 @@ Monthly Prediction:
 
 
 ## Results
+Although visually the predictions of both models take the shape of the general dataset, statistical measures are high in both models. 
+
+Weekly Model SARIMA(0,1,2)x(1,1,2,52):
+|MSE|RMSE|MAE|MAPE|
+|----|----|----|----|
+|93920.15|306.46|254.14|7.6%|
+
+Monthly Model SARIMA(0,1,2)x(1,1,2,12):
+|MSE|RMSE|MAE|MAPE|
+|----|----|----|----|
+|35435.13|188.24|127.97|3.9%|
+
 
 Weekly Lowest Mean Absolute Error (MAE)
 

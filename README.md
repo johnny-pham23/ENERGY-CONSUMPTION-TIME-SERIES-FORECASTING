@@ -21,7 +21,7 @@ Boxplots are used to visualize the general pattern of electricity consumption th
 
 <img src="images/BoxplotEnergyCompW.jpg" width="600">
 
-There is a major peak in July when the height of summer causes customers and businesses to cool their buildings. There is also a secondary peak in January where winters are cold and in contrast to cooling, buildings are heated to maintain a comfortable temperature indoors. 
+There is a major peak in July (7) when the height of summer causes customers and businesses to cool their buildings. There is also a secondary peak in January (1) where winters are cold and in contrast to cooling, buildings are heated to maintain a comfortable temperature indoors. 
 
 <img src="images/BoxplotEnergyCompM.jpg" width="600">
 

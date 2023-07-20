@@ -19,6 +19,8 @@ The first part of the ARIMA model contains the order of the non-seasonal paramet
 # Insights
 Boxplots are used to visualize the general pattern of electricity consumption throughout the year. 
 
+The average amount of electricy consumption is lower on the weekends (Saturday and Sunday) due to most buisnesses to be closed during these days.
+
 <img src="images/BoxplotEnergyCompW.jpg" width="600">
 
 There is a major peak in July (7) when the height of summer causes customers and businesses to cool their buildings. There is also a secondary peak in January (1) where winters are cold and in contrast to cooling, buildings are heated to maintain a comfortable temperature indoors. 

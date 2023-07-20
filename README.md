@@ -24,7 +24,7 @@ Weekly Prediction:
 
 Monthly Prediction:
 
-![Pie chart of species](images/MonthlyPred.jpg) 
+![Pie chart of species](images/MonthlyPred.jpeg) 
 
 
 # Area of Study
